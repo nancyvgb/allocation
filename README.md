@@ -16,4 +16,4 @@ Open your browser and visit http://localhost:8080.
 
 **TABLE**
 
-https://drive.google.com/file/d/1BfXC2oz4lFtUjHtU4L8BHz6XCV89b93X/view
+<img width="1274" alt="S LTABLE" src="https://user-images.githubusercontent.com/16921201/101365654-11250c80-3872-11eb-9993-ee8690ab9aaf.png">
