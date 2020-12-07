@@ -13,3 +13,7 @@ npm install http-server -g
 http. (ie: c:\someproject\).
 **Run: http-server**
 Open your browser and visit http://localhost:8080.
+
+**TABLE**
+
+https://drive.google.com/file/d/1BfXC2oz4lFtUjHtU4L8BHz6XCV89b93X/view
