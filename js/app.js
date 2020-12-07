@@ -14,15 +14,16 @@ const allocate = (salesOrders, purchaseOrders) => {
             let date = purchaseOrderSorted[0].receiving;
             if (supply === 0) { 
                 salesbyDate.push({ id, date })
-                purchaseOrderSorted.shift();
+                purchaseOrderSorted.shift(); //remove from array when there is no supply 
             } else if (supply > 0) {
                 salesbyDate.push({ id, date })
                 purchaseOrderSorted[0].quantity = supply
             } else {
                 while (supply < 0) {
-                    purchaseOrderSorted.shift();
+                    purchaseOrderSorted.shift(); //remove from array when there is no supply 
                     supply = supply + purchaseOrderSorted[0].quantity;
                 }
+                date = purchaseOrderSorted[0].receiving; // update date with new element
                 salesbyDate.push({ id, date })
                 purchaseOrderSorted.shift();
             }
